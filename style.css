@@ -14,6 +14,24 @@ nav{
   font-family: 'Source Sans Pro', sans-serif;
 } 
 
+nav li {
+  margin: 10px;
+  display:inline;
+}
+
+nav ul {
+  float: left;
+  margin-top: 25px;
+}
+
+#logo{
+  color: #fff;
+  font-size: 35px;
+  font-family: 'Pacifico', cursive;
+  float: left;
+  margin-left: 50px;
+}
+
 .feature {
   border: 1px solid #F2F2F2;
   margin: 15px;
@@ -26,6 +44,9 @@ nav{
 #apropos{
   margin: 0 auto;
   width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 h1{
@@ -81,4 +102,9 @@ a:hover {
   font-size: 30px;
   font-weight: lighter;
   text-decoration: none;
+}
+
+#baseline a:hover {
+  position: relative;
+  top:1px;
 }
